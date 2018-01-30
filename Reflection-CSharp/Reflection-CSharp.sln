@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection-CSharp", "Reflection-CSharp\Reflection-CSharp.csproj", "{B7BDA2A8-8B2A-4B45-9EDD-357D4B4ACA8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection.CSharp.Test", "Reflection.CSharp.Test\Reflection.CSharp.Test.csproj", "{5A571DC5-C7A8-4B8A-9F7C-01A9152BAAD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection.CSharp", "Reflection.CSharp\Reflection.CSharp.csproj", "{B7BDA2A8-8B2A-4B45-9EDD-357D4B4ACA8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A571DC5-C7A8-4B8A-9F7C-01A9152BAAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A571DC5-C7A8-4B8A-9F7C-01A9152BAAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A571DC5-C7A8-4B8A-9F7C-01A9152BAAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A571DC5-C7A8-4B8A-9F7C-01A9152BAAD3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B7BDA2A8-8B2A-4B45-9EDD-357D4B4ACA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7BDA2A8-8B2A-4B45-9EDD-357D4B4ACA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7BDA2A8-8B2A-4B45-9EDD-357D4B4ACA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU

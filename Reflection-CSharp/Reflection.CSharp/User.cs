@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Reflection_CSharp
+namespace Reflection.CSharp
 {
     public class User
     {
@@ -38,6 +38,9 @@ namespace Reflection_CSharp
 
             var getfullNameMethod = userType.GetMethod("GetFullName");
             var fullNameValue = getfullNameMethod.Invoke(user, null);
+
+
+
         }
     }
 }

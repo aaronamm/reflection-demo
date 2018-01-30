@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Reflection-CSharp")]
+[assembly: AssemblyTitle("Reflection.CSharp.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Reflection-CSharp")]
+[assembly: AssemblyProduct("Reflection.CSharp.Test")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b7bda2a8-8b2a-4b45-9edd-357d4b4aca8c")]
+[assembly: Guid("5a571dc5-c7a8-4b8a-9f7c-01a9152baad3")]
 
 // Version information for an assembly consists of the following four values:
 //
