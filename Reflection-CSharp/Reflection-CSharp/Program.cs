@@ -22,9 +22,22 @@ namespace Reflection_CSharp
         static void Main(string[] args)
         {
             var user = new User();
-            user.FirstName = "Aaron";
-            user.LastName = "Pongtongmuang";
-          Console.WriteLine(string.Format("full name: {0}", user.GetFullName()));
+
+            user.FirstName = "Ariel";
+            user.LastName = "Schmidt";
+            var fulllName = user.GetFullName();
+
+
+            var userType = user.GetType();
+
+            var firstNameProperty = userType.GetProperty("FirstName");
+            var lastNameProperty = userType.GetProperty("LastName");
+
+            firstNameProperty.SetValue(user, "Emma");
+            lastNameProperty.SetValue(user, "Jacobson");
+
+            var getfullNameMethod = userType.GetMethod("GetFullName");
+            var fullNameValue = getfullNameMethod.Invoke(user, null);
         }
     }
 }
